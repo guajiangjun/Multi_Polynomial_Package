@@ -1,2 +1,2 @@
 #pragma once
-#include "Monomial.hpp"
+#include "Term.hpp"

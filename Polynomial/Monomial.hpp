@@ -44,7 +44,7 @@ public:
     //重载输出运算符<<
     friend ostream &operator<<(ostream &out, Monomial &m)
     {
-        out << "单项式的次数为: (" << m[0];
+        out << "(" << m[0];
         for (int i = 1; i < m.getLength(); i++)
         {
             out << "," << m[i];

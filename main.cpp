@@ -4,8 +4,8 @@
 
 int main()
 {
-	Interval I(2, 4);
-	cout << I << endl;
+	Term t(2.9, Monomial(vector<int>{1, 2, 3}));
+	cout << t << endl;
 
 	return 0;
 }
